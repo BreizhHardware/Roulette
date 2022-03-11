@@ -121,6 +121,7 @@ body {
   width: 350px;
   height: 350px;
   margin: 12px;
+  margin-top: 120px;
   border-radius: 50%;
   position: relative;
   -webkit-animation: rotate 24s infinite linear;
