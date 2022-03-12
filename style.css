@@ -443,11 +443,11 @@ body {
 }
 .image{
   position: relative;
-  right: 75px;
-  bottom: 450px;
+  right: 50px;
+  bottom: 417px;
 }
 .image img{
-  width: 140%;
+  width: 125%;
   height: auto;
 }
 @-webkit-keyframes rotate {
