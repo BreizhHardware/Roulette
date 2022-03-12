@@ -441,6 +441,15 @@ body {
   transition: opacity 0.24s linear;
   cursor: not-allowed;
 }
+.image{
+  position: relative;
+  right: 75px;
+  bottom: 450px;
+}
+.image img{
+  width: 140%;
+  height: auto;
+}
 @-webkit-keyframes rotate {
   0% {
     transform: rotateZ(0deg);
@@ -482,7 +491,7 @@ body {
 }
 .data .mask,
 .data .result {
-  top: 0;
+  top: 0px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -520,6 +529,7 @@ body {
 }
 .previous-results {
   max-width: 350px;
+  top: 100px;
   margin: 24px 12px;
 }
 .previous-list {
