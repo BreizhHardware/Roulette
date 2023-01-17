@@ -528,8 +528,9 @@ body {
   line-height: 1;
 }
 .previous-results {
+  position: relative;
   max-width: 350px;
-  top: 100px;
+  top: -300px;
   margin: 24px 12px;
 }
 .previous-list {
